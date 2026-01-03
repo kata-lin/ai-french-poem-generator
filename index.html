@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css"></link>
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
         <title>AI french poem genertor</title>
     </head>
     <body>
@@ -12,14 +13,11 @@
                 <h1>AI french poem generator</h1>
             </header>
             <main>
-                <form>
+                <form id="poem-generator-form">
                     <input type="text" placeholder="Enter poem topic" required autofocus autocomplete="off" class="poem-topic"/>
                     <input type="Submit" class="poem-btn"/>
                 </form>
-                <div class="poem">
-                    Paramètre fictif
-                    <br/>
-                    Paramètre fictif
+                <div id="poem">
                 </div>
             </main>
             <footer>
