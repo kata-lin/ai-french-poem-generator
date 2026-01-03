@@ -15,11 +15,14 @@
             </header>
             <main>
                 <form id="poem-generator-form">
-                    <input type="text" placeholder="Enter poem topic" required autofocus autocomplete="off" class="poem-topic" id="poem-topic"/>
-                    <input type="Submit" class="poem-btn"/>
+                    <label for="poem-topic">Enter a topic for the poem</label>
+                    <small aria-describedby="poem-topic">for example: flower, a girl skating or cloudy sky</small>
+                    <div class="form-input">
+                        <input type="text" required autofocus autocomplete="off" class="poem-topic" id="poem-topic"/>
+                        <input type="Submit" class="poem-btn"/>
+                    </div>
                 </form>
-                <div id="poem">
-                </div>
+                <div id="poem"></div>
             </main>
             <footer>
                 <p>
