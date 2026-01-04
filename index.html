@@ -16,9 +16,9 @@
             <main>
                 <form id="poem-generator-form">
                     <label for="poem-topic">Enter a topic for the poem</label>
-                    <small aria-describedby="poem-topic">for example: flower, a girl skating or cloudy sky</small>
+                    <small id="topic-example">for example: flower, a girl skating or cloudy sky</small>
                     <div class="form-input">
-                        <input type="text" required autofocus autocomplete="off" class="poem-topic" id="poem-topic"/>
+                        <input type="text" required autofocus autocomplete="off" class="poem-topic" id="poem-topic" aria-describedby="topic-example"/>
                         <input type="Submit" class="poem-btn"/>
                     </div>
                 </form>
